@@ -54,18 +54,13 @@ Get the application running on your local machine in just a few steps.
     ```
 
 3.  **Install Dependencies**
-    The only external library required is `Pillow` for image handling.
+    The only external library required besides tkinter(have it installed as well in VM env or locally) is `Pillow` for image handling.
     ```bash
     pip install Pillow
     ```
 
-4.  **Generate Placeholder Images**
-    A helper script is included to create the necessary product images.
-    ```bash
-    python create_images.py
-    ```
 
-5.  **Run the Application**
+4.  **Run the Application**
     You're ready to go!
     ```bash
     python Python_proj_1stsem.py
