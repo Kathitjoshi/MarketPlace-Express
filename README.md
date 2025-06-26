@@ -38,8 +38,10 @@ Get the application running on your local machine in just a few steps.
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/Kathitjoshi/MarketPlace-Express
+.git
+    cd MarketPlace-Express
+
     ```
 
 2.  **Create a Virtual Environment (Recommended)**
