@@ -32,41 +32,40 @@ This project simulates a complete shopping experience, from user sign-up to view
 - **Themed Widgets:** Uses modern `ttk` widgets for a professional look and feel across platforms.
 - **Dynamic Updates:** The UI intelligently refreshes when you log in, add items to your cart, or make a purchase.
 
-## ⚙️ Setup and Installation
-
+⚙️ Setup and Installation
 Get the application running on your local machine in just a few steps.
 
-1.  **Clone the Repository**
-    ```bash
-    git clone https://github.com/Kathitjoshi/MarketPlace-Express
-.git
-    cd MarketPlace-Express
+Clone the Repository
 
-    ```
+git clone https://github.com/Kathitjoshi/MarketPlace-Express.git
+cd MarketPlace-Express
 
-2.  **Create a Virtual Environment (Recommended)**
-    ```bash
-    # On Windows
-    python -m venv venv
-    .\venv\Scripts\activate
+Create a Virtual Environment (Recommended)
 
-    # On macOS & Linux
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
+# On Windows
+python -m venv venv
+.\venv\Scripts\activate
 
-3.  **Install Dependencies**
-    The only external library required besides tkinter(have it installed as well in VM env or locally) is `Pillow` for image handling.
-    ```bash
-    pip install Pillow
-    ```
+# On macOS & Linux
+python3 -m venv venv
+source venv/bin/activate
 
+Install Dependencies
+Install the required Python packages.
 
-4.  **Run the Application**
-    You're ready to go!
-    ```bash
-    python Python_proj_1stsem.py
-    ```
+pip install -r requirements.txt
+
+(Note: tkinter is usually included with Python installations and does not need to be installed separately.)
+
+Ensure Image Files are Present
+Verify that the images directory exists in the root of the project and contains all product image files (arrow_shirt.png, levis_pants.png, pepe_jeans_pants.png, vanheusen_shirt.png).
+
+Run the Application
+You're ready to go!
+
+python Python_proj_1stsem.py
+
+(Replace Python_proj_1stsem.py with the actual name of your main script if you renamed it, e.g., ecommerce_app.py)
 
 ## 📖 How to Use
 
